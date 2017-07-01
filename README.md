@@ -1,7 +1,7 @@
 # bash-utility
 list of commands that I use daily
 
-creating currenct's folder symbolic link:
+create current's folder symbolic link:
 ```
 ln -s $(pwd) /opt/newlink
 ```
