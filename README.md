@@ -15,3 +15,8 @@ find -name '*.sql' | xargs grep -ins --color mytext
  ```bash
 for i in $(find . -name '*.imported'); do mv $i ${i/.imported/}; done; 
  ```
+
+pretty csv
+```bash
+cat data.csv | column -t -s, | less -S
+```
